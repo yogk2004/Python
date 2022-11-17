@@ -1,0 +1,5 @@
+P=int(input("Principal Amount: "))
+R=int(input("Rate: "))
+T=int(input("Time: "))
+CompoundInterest=str(((P*((1+(R/100))**T)))-P)
+print("The compound interest is"+CompoundInterest)
