@@ -210,4 +210,4 @@ else:
     number_name=tendigitname(list_of_number[8],list_of_number[7],1)+unitdigitname(list_of_number[8],list_of_number[7],1)+places_name(list_of_number,7,list_of_spacing[7])+tendigitname(list_of_number[6],list_of_number[5],1)+unitdigitname(list_of_number[6],list_of_number[5],1)+places_name(list_of_number,5,list_of_spacing[5])+tendigitname(list_of_number[4],list_of_number[3],1)+unitdigitname(list_of_number[4],list_of_number[3],1)+places_name(list_of_number,3,list_of_spacing[3])+unitdigitname(0,list_of_number[2],1)+places_name(list_of_number,2,list_of_spacing[2])+tendigitname(list_of_number[1],list_of_number[0],a)+unitdigitname(list_of_number[1],list_of_number[0],0)
 #Printing the string of the Number
 print(number_name)
-#NOTE: THE BONUS QUESTION IS ALSO SOLVED ABOVE AND THE SPACES PRECISION BETWEEN THE NAME STRINGS AND ALSO NOT PROVIDING IN THE END AT THE STRING IS TAKEN INTO ACCOUNT.
+#NOTE: THE BONUS QUESTION IS ALSO SOLVED ABOVE. EVEN SPACE PRECISION BETWEEN THE STRINGS AND AT THE END OF THE STRING IS ALSO TAKEN INTO ACCOUNT.
