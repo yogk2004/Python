@@ -7,8 +7,29 @@ For laptop cost, take the input from the user and Take allowance as Rs 20,000, y
 and the rate of interest r is 0.5."""
 
 #CODE:
-#Defining function for Required Time calculation:-
-def total_amount(p,r):
-    global total_amount
-    total_amount=(p*(1+r))
-    
+#Defining function for Required Amount Calculation:-
+def total_amount(p,r,t):
+    global total_amount_val
+    total_amount_val=(p*(1+r)**t)
+    return total_amount_val
+
+
+#Taking input and assigning values to variables.
+cost=int(input("Cost of Laptop:-"))
+allowance=20000
+sf=0.1
+r=0.5
+t=1 #represents 1 month
+#As, first month is taken up in saving amount for putting money in compund interest.
+if cost<=2000:
+    print(1)
+else:
+    total_amount(allowance*0.1,r,t)
+    month_count=2
+    while total_amount_val+allowance*sf<cost:
+        p=total_amount_val+allowance*sf
+        month_count+=1
+        total_amount(p,r,t)
+    print("Number of Months:-",month_count,"months")
+remain_sav=(total_amount_val+allowance*sf)-cost
+print("Remaining Saving:-",remain_sav)
