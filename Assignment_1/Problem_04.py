@@ -18,7 +18,7 @@ def Avg_val(val1,val2):
 
 #Calculating velocity:
 def Velocity(t):
-    if 140000 - 2100*t>0:
+    if 140000 - 2100*t > 0:
         x=math.log((140000)/(140000 - 2100*t))
         vel=2000*(x) - 9.8*t
     

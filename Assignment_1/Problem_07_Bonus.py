@@ -12,7 +12,7 @@ def loop_funcX(x,r):
 #Taking Input and Calculating Time:-
 time=int(input("Number of Months:- "))
 cost=float(input("Cost of Laptop:- "))
-r=0.5
+r=0.005
 x=1
 allowance=20000
 for i in range (time-1):

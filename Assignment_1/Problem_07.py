@@ -18,7 +18,7 @@ def total_amount(p,r,t):
 cost=int(input("Cost of Laptop:-"))
 allowance=20000
 sf=0.1
-r=0.5
+r=0.005
 t=1 #represents 1 month
 #As, first month is taken up in saving amount for putting money in compund interest.
 if cost<=2000:
