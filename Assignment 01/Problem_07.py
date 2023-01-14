@@ -15,7 +15,7 @@ def total_amount(p,r,t):
 
 
 #Taking input and assigning values to variables.
-cost=int(input("Cost of Laptop:-"))
+cost=float(input("Cost of Laptop:-"))
 allowance=20000
 sf=0.1
 r=0.005

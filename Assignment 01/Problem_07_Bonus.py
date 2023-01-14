@@ -10,7 +10,7 @@ def loop_funcX(x,r):
     return x
 
 #Taking Input and Calculating Time:-
-time=int(input("Number of Months:- "))
+time=float(input("Number of Months:- "))
 cost=float(input("Cost of Laptop:- "))
 r=0.005
 x=1

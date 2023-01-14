@@ -5,7 +5,7 @@ In the main program, take user input as n and call this function for printing.""
 
 #CODE:
 #Taking Input:
-n=int(input())
+n=int(input("Enter Number for the Pattern Size:"))
 
 #Buliding Pattern:
 for d in range(n):
@@ -17,4 +17,3 @@ for d in range(n):
         print(' ',end="")
     for c in range(d+1):
         print("*",end="")
-    print("Enter Number for the Pattern Size:")

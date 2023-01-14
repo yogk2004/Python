@@ -4,7 +4,7 @@
 you have to find the height of the pole and the length of the line from the person to the top of the pole.
  
 Your program has to take as input (from the user on the terminal) the angle (in degrees) and another input for distance 
-to the base of the pole. Then it computes and prints the height of the poleand the distance to the tip of the pole."""
+to the base of the pole. Then it computes and prints the height of the pole and the distance to the tip of the pole."""
 
 #CODE:
 #Defining Factorial Function:-
@@ -51,7 +51,7 @@ def tan(theta):
 
 #Taking input and calculating Height of the pole and also, the distance to the tip of the pole from the person.
 
-theta=int(input("Enter angle in degree (0 to 90):-"))
-hor_dist=int(input("Enter horizontal distance:-"))
+theta=float(input("Enter angle in degree (0 to 90):-"))
+hor_dist=float(input("Enter horizontal distance:-"))
 print("Horizontal Height of the pole:-",tan(theta)*hor_dist)
 print("Length of the line from the person to the top of the pole:-",hor_dist/cos(theta))
