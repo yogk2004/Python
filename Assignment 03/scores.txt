@@ -1,0 +1,8 @@
+FILE1.txt
+scores: 14.8
+Top 5 most occurring words: is,my,name,howard,howard
+Five randomly selected words from the submission:- name, howard, howard, name, howard
+FILE2.txt
+scores: 14.8
+Top 5 most occurring words: is,my,name,sheldon,sheldon
+Five randomly selected words from the submission:- name, is, is, is, my

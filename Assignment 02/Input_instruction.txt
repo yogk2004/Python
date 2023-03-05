@@ -1,0 +1,2 @@
+To type input in problem 03,06,07,08 use the txt file ouside this folder due to the directory issue.
+In question 8..Please strictly for the format of the file written

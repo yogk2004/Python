@@ -1,4 +1,4 @@
-#Question 2:
+#Question 02:
 """Write a program that will repeatedly take (for a student) input of this type:
 course_no, number_of_credits, and grade_received (eg. CSE101 4 A).
 These inputs are for the courses the student has done in the semester. If no input is given (i.e. just a return),
@@ -49,7 +49,7 @@ def check_course_no(str1):
         return False
         
 def check_credit(str2):
-    if str2!="1" and str2!="2" and str2!="4" and str2!="3":
+    if str2!="1" and str2!="2" and str2!="4":
         print("Invalid 'credit'!")
         return False
         
